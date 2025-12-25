@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="ooOKvyNDQ0PuVAw7elmC">
+    <mxGraphModel dx="1227" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-24" value="Wi-Fi Client 192.168.10.20" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="25" y="20" width="249" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-25" value="wlx90de806d6fe6 Wi-Fi AP" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="24" y="124" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-26" value="PREROUTING no mangle" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="27" y="228" width="246" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-27" value="ip rule" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="98" y="332" width="104" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-28" value="Routing table 51820" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="48" y="436" width="203" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-29" value="awgmy2 VPN WG" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="56" y="540" width="189" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-30" value="POSTROUTING MASQUERADE" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="644" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-31" value="Internet via VPN" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="62" y="772" width="177" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-24" target="uH3nFh4NyeVrpIC_34F9-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-25" target="uH3nFh4NyeVrpIC_34F9-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-26" target="uH3nFh4NyeVrpIC_34F9-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-27" target="uH3nFh4NyeVrpIC_34F9-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-28" target="uH3nFh4NyeVrpIC_34F9-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-29" target="uH3nFh4NyeVrpIC_34F9-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uH3nFh4NyeVrpIC_34F9-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uH3nFh4NyeVrpIC_34F9-30" target="uH3nFh4NyeVrpIC_34F9-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,36 @@
+[Unit]
+Description=MyApp background service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+
+# Пользователь и группа, от которых запускается сервис
+User=root
+Group=root
+
+# Рабочая директория (опционально)
+WorkingDirectory=/home/sk
+
+# Команда запуска
+ExecStart=/home/sk/nfq_forwarder
+
+# Перезапуск при падении
+Restart=on-failure
+RestartSec=3
+
+# Ограничения и безопасность (по желанию)
+# LimitNOFILE=1048576
+# NoNewPrivileges=true
+
+# Логи пойдут в journalctl
+StandardOutput=journal
+StandardError=journal
+
+# Переменные окружения (опционально)
+# Environment="ENV=production"
+# EnvironmentFile=/etc/myapp/myapp.env
+
+[Install]
+WantedBy=multi-user.target
